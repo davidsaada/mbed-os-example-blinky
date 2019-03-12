@@ -6,6 +6,11 @@
             "platform.cpu-stats-enabled": true,
             "platform.thread-stats-enabled": true,
             "platform.sys-stats-enabled": true
+        },
+        "LPC55S69_NS": {
+            "target.components_add": [ "SD" ],
+            "target.features_add" : ["BOOTLOADER"],
+            "platform.stdio-baud-rate": 115200
         }
     }
 }
